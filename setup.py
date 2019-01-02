@@ -3,7 +3,7 @@
 from setuptools import setup, find_packages
 
 install_requires = [
-    'requests==2.13.0'
+    'requests'
 ]
 
 tests_require = [
