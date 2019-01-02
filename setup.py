@@ -8,7 +8,7 @@ install_requires = [
 
 tests_require = [
     'pytest',
-    ]
+]
 
 setup(
     name='cloverapi-python',
@@ -18,6 +18,9 @@ setup(
     license='MIT',
     url='https://github.com/mattlisiv/clover-api-python',
     packages=find_packages(),
+    package_data={
+        '': ['*.md', '*.txt'],
+    },
     install_requires=install_requires,
     tests_require=tests_require,
     description='An unofficial Python client for the Clover API v3',
