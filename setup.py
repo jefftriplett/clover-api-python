@@ -21,11 +21,12 @@ setup(
     package_data={
         '': ['*.md', '*.txt'],
     },
+    py_modules=['cloverapi'],
     install_requires=install_requires,
     tests_require=tests_require,
     description='An unofficial Python client for the Clover API v3',
     download_url='https://github.com/mattlisiv/clover-api-python/archive/master.zip',
-    keywords=['clover','api'],
+    keywords=['clover', 'api'],
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Intended Audience :: Developers',
@@ -40,5 +41,6 @@ setup(
         'Programming Language :: Python :: 3.3',
         'Programming Language :: Python :: 3.4',
         'Programming Language :: Python :: 3.5',
+        'Programming Language :: Python :: 3.6',
     ],
 )
